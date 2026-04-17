@@ -1,0 +1,4 @@
+Model,Baseline_Test_Anomalies,Gaussian_30pct_Label_Flips,Worst_Stress_Robustness,Interpretation
+Isolation Forest,158,3049,0.8828897338403042,Tree-based detector remains comparatively stable under diffuse perturbation but should still be monitored for drift.
+Autoencoder,775,4485,0.14904942965779466,"Reconstruction boundary is sensitive to shifted inputs, which is useful for detection but increases perturbation sensitivity."
+One-Class SVM,1345,3915,0.2701520912547528,Kernel baseline offers a useful comparator but may degrade when scaled feature geometry changes materially.

@@ -1,0 +1,53 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local temp/cache folders
+tmp/
+.mplconfig/
+
+# Logs
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Generated submission packages
+Financial_AI_Robustness_Supervised_Submission_Package*/
+*.zip
+
+# Generated data/model/output artifacts
+# Keep source code and documentation in git; regenerate or package outputs separately.
+dissertation_outputs/data/
+dissertation_outputs/models/
+dissertation_outputs/state/
+dissertation_outputs/figures/
+
+# Large/generated report artifacts
+*.doc
+*.docx
+
+# Download/bootstrap helpers
+get-pip.py

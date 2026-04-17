@@ -1,0 +1,4 @@
+Scenario,Model,Label_Flips,Jaccard,Robustness
+Price Spike,Ensemble Majority Vote,3075,0.11357739982703949,0.41539923954372626
+Volume Shock,Ensemble Majority Vote,1406,0.21802002224694106,0.7326996197718632
+Volatility Shock,Ensemble Majority Vote,721,0.34215328467153283,0.8629277566539924

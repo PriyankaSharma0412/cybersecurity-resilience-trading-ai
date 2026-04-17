@@ -1,0 +1,7 @@
+Model,Split,TN,FP,FN,TP
+Logistic Regression,Validation,2201,2301,199,549
+Random Forest,Validation,4497,5,747,1
+Gradient Boosting Fallback,Validation,4238,264,688,60
+Logistic Regression,Test,1744,2481,261,764
+Random Forest,Test,4221,4,1019,6
+Gradient Boosting Fallback,Test,4015,210,962,63

@@ -1,0 +1,181 @@
+Model,Event_ID,Split,Ticker,Scenario,Detected,Time_To_Detection
+Isolation Forest,Test_AAPL_1,Test,AAPL,Price Spike,1,0.0
+Isolation Forest,Test_AAPL_2,Test,AAPL,Volume Shock,1,0.0
+Isolation Forest,Test_AAPL_3,Test,AAPL,Volatility Shock,1,2.0
+Isolation Forest,Test_AMZN_1,Test,AMZN,Price Spike,0,
+Isolation Forest,Test_AMZN_2,Test,AMZN,Volume Shock,1,0.0
+Isolation Forest,Test_AMZN_3,Test,AMZN,Volatility Shock,1,1.0
+Isolation Forest,Test_GS_1,Test,GS,Price Spike,0,
+Isolation Forest,Test_GS_2,Test,GS,Volume Shock,1,0.0
+Isolation Forest,Test_GS_3,Test,GS,Volatility Shock,0,
+Isolation Forest,Test_JPM_1,Test,JPM,Price Spike,0,
+Isolation Forest,Test_JPM_2,Test,JPM,Volume Shock,1,0.0
+Isolation Forest,Test_JPM_3,Test,JPM,Volatility Shock,0,
+Isolation Forest,Test_KO_1,Test,KO,Price Spike,0,
+Isolation Forest,Test_KO_2,Test,KO,Volume Shock,0,
+Isolation Forest,Test_KO_3,Test,KO,Volatility Shock,0,
+Isolation Forest,Test_MSFT_1,Test,MSFT,Price Spike,0,
+Isolation Forest,Test_MSFT_2,Test,MSFT,Volume Shock,1,0.0
+Isolation Forest,Test_MSFT_3,Test,MSFT,Volatility Shock,1,0.0
+Isolation Forest,Test_NVDA_1,Test,NVDA,Price Spike,1,0.0
+Isolation Forest,Test_NVDA_2,Test,NVDA,Volume Shock,1,0.0
+Isolation Forest,Test_NVDA_3,Test,NVDA,Volatility Shock,1,0.0
+Isolation Forest,Test_QQQ_1,Test,QQQ,Price Spike,0,
+Isolation Forest,Test_QQQ_2,Test,QQQ,Volume Shock,1,0.0
+Isolation Forest,Test_QQQ_3,Test,QQQ,Volatility Shock,1,0.0
+Isolation Forest,Test_SPY_1,Test,SPY,Price Spike,0,
+Isolation Forest,Test_SPY_2,Test,SPY,Volume Shock,1,0.0
+Isolation Forest,Test_SPY_3,Test,SPY,Volatility Shock,0,
+Isolation Forest,Test_XOM_1,Test,XOM,Price Spike,0,
+Isolation Forest,Test_XOM_2,Test,XOM,Volume Shock,1,2.0
+Isolation Forest,Test_XOM_3,Test,XOM,Volatility Shock,0,
+Isolation Forest,Validation_AAPL_1,Validation,AAPL,Price Spike,0,
+Isolation Forest,Validation_AAPL_2,Validation,AAPL,Volume Shock,0,
+Isolation Forest,Validation_AAPL_3,Validation,AAPL,Volatility Shock,0,
+Isolation Forest,Validation_AMZN_1,Validation,AMZN,Price Spike,0,
+Isolation Forest,Validation_AMZN_2,Validation,AMZN,Volume Shock,0,
+Isolation Forest,Validation_AMZN_3,Validation,AMZN,Volatility Shock,0,
+Isolation Forest,Validation_GS_1,Validation,GS,Price Spike,0,
+Isolation Forest,Validation_GS_2,Validation,GS,Volume Shock,0,
+Isolation Forest,Validation_GS_3,Validation,GS,Volatility Shock,1,1.0
+Isolation Forest,Validation_JPM_1,Validation,JPM,Price Spike,0,
+Isolation Forest,Validation_JPM_2,Validation,JPM,Volume Shock,1,0.0
+Isolation Forest,Validation_JPM_3,Validation,JPM,Volatility Shock,1,1.0
+Isolation Forest,Validation_KO_1,Validation,KO,Price Spike,0,
+Isolation Forest,Validation_KO_2,Validation,KO,Volume Shock,0,
+Isolation Forest,Validation_KO_3,Validation,KO,Volatility Shock,1,1.0
+Isolation Forest,Validation_MSFT_1,Validation,MSFT,Price Spike,0,
+Isolation Forest,Validation_MSFT_2,Validation,MSFT,Volume Shock,0,
+Isolation Forest,Validation_MSFT_3,Validation,MSFT,Volatility Shock,0,
+Isolation Forest,Validation_NVDA_1,Validation,NVDA,Price Spike,1,0.0
+Isolation Forest,Validation_NVDA_2,Validation,NVDA,Volume Shock,1,0.0
+Isolation Forest,Validation_NVDA_3,Validation,NVDA,Volatility Shock,0,
+Isolation Forest,Validation_QQQ_1,Validation,QQQ,Price Spike,0,
+Isolation Forest,Validation_QQQ_2,Validation,QQQ,Volume Shock,0,
+Isolation Forest,Validation_QQQ_3,Validation,QQQ,Volatility Shock,0,
+Isolation Forest,Validation_SPY_1,Validation,SPY,Price Spike,0,
+Isolation Forest,Validation_SPY_2,Validation,SPY,Volume Shock,0,
+Isolation Forest,Validation_SPY_3,Validation,SPY,Volatility Shock,0,
+Isolation Forest,Validation_XOM_1,Validation,XOM,Price Spike,0,
+Isolation Forest,Validation_XOM_2,Validation,XOM,Volume Shock,1,0.0
+Isolation Forest,Validation_XOM_3,Validation,XOM,Volatility Shock,1,1.0
+Autoencoder,Test_AAPL_1,Test,AAPL,Price Spike,1,0.0
+Autoencoder,Test_AAPL_2,Test,AAPL,Volume Shock,1,0.0
+Autoencoder,Test_AAPL_3,Test,AAPL,Volatility Shock,1,0.0
+Autoencoder,Test_AMZN_1,Test,AMZN,Price Spike,1,0.0
+Autoencoder,Test_AMZN_2,Test,AMZN,Volume Shock,1,0.0
+Autoencoder,Test_AMZN_3,Test,AMZN,Volatility Shock,1,0.0
+Autoencoder,Test_GS_1,Test,GS,Price Spike,1,0.0
+Autoencoder,Test_GS_2,Test,GS,Volume Shock,1,0.0
+Autoencoder,Test_GS_3,Test,GS,Volatility Shock,1,0.0
+Autoencoder,Test_JPM_1,Test,JPM,Price Spike,1,0.0
+Autoencoder,Test_JPM_2,Test,JPM,Volume Shock,1,0.0
+Autoencoder,Test_JPM_3,Test,JPM,Volatility Shock,1,0.0
+Autoencoder,Test_KO_1,Test,KO,Price Spike,1,0.0
+Autoencoder,Test_KO_2,Test,KO,Volume Shock,0,
+Autoencoder,Test_KO_3,Test,KO,Volatility Shock,1,0.0
+Autoencoder,Test_MSFT_1,Test,MSFT,Price Spike,1,0.0
+Autoencoder,Test_MSFT_2,Test,MSFT,Volume Shock,1,0.0
+Autoencoder,Test_MSFT_3,Test,MSFT,Volatility Shock,1,0.0
+Autoencoder,Test_NVDA_1,Test,NVDA,Price Spike,1,0.0
+Autoencoder,Test_NVDA_2,Test,NVDA,Volume Shock,1,0.0
+Autoencoder,Test_NVDA_3,Test,NVDA,Volatility Shock,1,0.0
+Autoencoder,Test_QQQ_1,Test,QQQ,Price Spike,1,0.0
+Autoencoder,Test_QQQ_2,Test,QQQ,Volume Shock,1,0.0
+Autoencoder,Test_QQQ_3,Test,QQQ,Volatility Shock,1,0.0
+Autoencoder,Test_SPY_1,Test,SPY,Price Spike,1,0.0
+Autoencoder,Test_SPY_2,Test,SPY,Volume Shock,1,0.0
+Autoencoder,Test_SPY_3,Test,SPY,Volatility Shock,1,0.0
+Autoencoder,Test_XOM_1,Test,XOM,Price Spike,1,0.0
+Autoencoder,Test_XOM_2,Test,XOM,Volume Shock,0,
+Autoencoder,Test_XOM_3,Test,XOM,Volatility Shock,1,0.0
+Autoencoder,Validation_AAPL_1,Validation,AAPL,Price Spike,1,0.0
+Autoencoder,Validation_AAPL_2,Validation,AAPL,Volume Shock,0,
+Autoencoder,Validation_AAPL_3,Validation,AAPL,Volatility Shock,1,0.0
+Autoencoder,Validation_AMZN_1,Validation,AMZN,Price Spike,1,0.0
+Autoencoder,Validation_AMZN_2,Validation,AMZN,Volume Shock,0,
+Autoencoder,Validation_AMZN_3,Validation,AMZN,Volatility Shock,1,0.0
+Autoencoder,Validation_GS_1,Validation,GS,Price Spike,1,0.0
+Autoencoder,Validation_GS_2,Validation,GS,Volume Shock,0,
+Autoencoder,Validation_GS_3,Validation,GS,Volatility Shock,1,0.0
+Autoencoder,Validation_JPM_1,Validation,JPM,Price Spike,1,0.0
+Autoencoder,Validation_JPM_2,Validation,JPM,Volume Shock,0,
+Autoencoder,Validation_JPM_3,Validation,JPM,Volatility Shock,1,0.0
+Autoencoder,Validation_KO_1,Validation,KO,Price Spike,1,0.0
+Autoencoder,Validation_KO_2,Validation,KO,Volume Shock,0,
+Autoencoder,Validation_KO_3,Validation,KO,Volatility Shock,1,0.0
+Autoencoder,Validation_MSFT_1,Validation,MSFT,Price Spike,1,0.0
+Autoencoder,Validation_MSFT_2,Validation,MSFT,Volume Shock,0,
+Autoencoder,Validation_MSFT_3,Validation,MSFT,Volatility Shock,1,0.0
+Autoencoder,Validation_NVDA_1,Validation,NVDA,Price Spike,1,0.0
+Autoencoder,Validation_NVDA_2,Validation,NVDA,Volume Shock,1,1.0
+Autoencoder,Validation_NVDA_3,Validation,NVDA,Volatility Shock,1,0.0
+Autoencoder,Validation_QQQ_1,Validation,QQQ,Price Spike,1,0.0
+Autoencoder,Validation_QQQ_2,Validation,QQQ,Volume Shock,0,
+Autoencoder,Validation_QQQ_3,Validation,QQQ,Volatility Shock,1,0.0
+Autoencoder,Validation_SPY_1,Validation,SPY,Price Spike,1,0.0
+Autoencoder,Validation_SPY_2,Validation,SPY,Volume Shock,0,
+Autoencoder,Validation_SPY_3,Validation,SPY,Volatility Shock,1,0.0
+Autoencoder,Validation_XOM_1,Validation,XOM,Price Spike,1,0.0
+Autoencoder,Validation_XOM_2,Validation,XOM,Volume Shock,0,
+Autoencoder,Validation_XOM_3,Validation,XOM,Volatility Shock,1,0.0
+One-Class SVM,Test_AAPL_1,Test,AAPL,Price Spike,1,0.0
+One-Class SVM,Test_AAPL_2,Test,AAPL,Volume Shock,1,0.0
+One-Class SVM,Test_AAPL_3,Test,AAPL,Volatility Shock,1,0.0
+One-Class SVM,Test_AMZN_1,Test,AMZN,Price Spike,1,0.0
+One-Class SVM,Test_AMZN_2,Test,AMZN,Volume Shock,1,0.0
+One-Class SVM,Test_AMZN_3,Test,AMZN,Volatility Shock,1,0.0
+One-Class SVM,Test_GS_1,Test,GS,Price Spike,1,0.0
+One-Class SVM,Test_GS_2,Test,GS,Volume Shock,1,0.0
+One-Class SVM,Test_GS_3,Test,GS,Volatility Shock,1,0.0
+One-Class SVM,Test_JPM_1,Test,JPM,Price Spike,1,0.0
+One-Class SVM,Test_JPM_2,Test,JPM,Volume Shock,1,0.0
+One-Class SVM,Test_JPM_3,Test,JPM,Volatility Shock,1,0.0
+One-Class SVM,Test_KO_1,Test,KO,Price Spike,1,0.0
+One-Class SVM,Test_KO_2,Test,KO,Volume Shock,1,0.0
+One-Class SVM,Test_KO_3,Test,KO,Volatility Shock,1,0.0
+One-Class SVM,Test_MSFT_1,Test,MSFT,Price Spike,1,0.0
+One-Class SVM,Test_MSFT_2,Test,MSFT,Volume Shock,1,0.0
+One-Class SVM,Test_MSFT_3,Test,MSFT,Volatility Shock,1,0.0
+One-Class SVM,Test_NVDA_1,Test,NVDA,Price Spike,1,0.0
+One-Class SVM,Test_NVDA_2,Test,NVDA,Volume Shock,1,0.0
+One-Class SVM,Test_NVDA_3,Test,NVDA,Volatility Shock,1,0.0
+One-Class SVM,Test_QQQ_1,Test,QQQ,Price Spike,1,0.0
+One-Class SVM,Test_QQQ_2,Test,QQQ,Volume Shock,1,0.0
+One-Class SVM,Test_QQQ_3,Test,QQQ,Volatility Shock,1,0.0
+One-Class SVM,Test_SPY_1,Test,SPY,Price Spike,1,0.0
+One-Class SVM,Test_SPY_2,Test,SPY,Volume Shock,1,0.0
+One-Class SVM,Test_SPY_3,Test,SPY,Volatility Shock,1,0.0
+One-Class SVM,Test_XOM_1,Test,XOM,Price Spike,1,0.0
+One-Class SVM,Test_XOM_2,Test,XOM,Volume Shock,1,0.0
+One-Class SVM,Test_XOM_3,Test,XOM,Volatility Shock,1,0.0
+One-Class SVM,Validation_AAPL_1,Validation,AAPL,Price Spike,1,0.0
+One-Class SVM,Validation_AAPL_2,Validation,AAPL,Volume Shock,1,0.0
+One-Class SVM,Validation_AAPL_3,Validation,AAPL,Volatility Shock,1,0.0
+One-Class SVM,Validation_AMZN_1,Validation,AMZN,Price Spike,1,0.0
+One-Class SVM,Validation_AMZN_2,Validation,AMZN,Volume Shock,1,0.0
+One-Class SVM,Validation_AMZN_3,Validation,AMZN,Volatility Shock,1,0.0
+One-Class SVM,Validation_GS_1,Validation,GS,Price Spike,1,0.0
+One-Class SVM,Validation_GS_2,Validation,GS,Volume Shock,1,0.0
+One-Class SVM,Validation_GS_3,Validation,GS,Volatility Shock,1,0.0
+One-Class SVM,Validation_JPM_1,Validation,JPM,Price Spike,1,0.0
+One-Class SVM,Validation_JPM_2,Validation,JPM,Volume Shock,1,0.0
+One-Class SVM,Validation_JPM_3,Validation,JPM,Volatility Shock,1,0.0
+One-Class SVM,Validation_KO_1,Validation,KO,Price Spike,1,0.0
+One-Class SVM,Validation_KO_2,Validation,KO,Volume Shock,1,0.0
+One-Class SVM,Validation_KO_3,Validation,KO,Volatility Shock,1,0.0
+One-Class SVM,Validation_MSFT_1,Validation,MSFT,Price Spike,1,0.0
+One-Class SVM,Validation_MSFT_2,Validation,MSFT,Volume Shock,1,0.0
+One-Class SVM,Validation_MSFT_3,Validation,MSFT,Volatility Shock,1,0.0
+One-Class SVM,Validation_NVDA_1,Validation,NVDA,Price Spike,1,0.0
+One-Class SVM,Validation_NVDA_2,Validation,NVDA,Volume Shock,1,0.0
+One-Class SVM,Validation_NVDA_3,Validation,NVDA,Volatility Shock,1,0.0
+One-Class SVM,Validation_QQQ_1,Validation,QQQ,Price Spike,1,0.0
+One-Class SVM,Validation_QQQ_2,Validation,QQQ,Volume Shock,1,0.0
+One-Class SVM,Validation_QQQ_3,Validation,QQQ,Volatility Shock,1,0.0
+One-Class SVM,Validation_SPY_1,Validation,SPY,Price Spike,1,0.0
+One-Class SVM,Validation_SPY_2,Validation,SPY,Volume Shock,1,0.0
+One-Class SVM,Validation_SPY_3,Validation,SPY,Volatility Shock,1,0.0
+One-Class SVM,Validation_XOM_1,Validation,XOM,Price Spike,1,0.0
+One-Class SVM,Validation_XOM_2,Validation,XOM,Volume Shock,1,0.0
+One-Class SVM,Validation_XOM_3,Validation,XOM,Volatility Shock,1,0.0

@@ -1,0 +1,10 @@
+Model,Split,TN,FP,FN,TP
+Isolation Forest,Validation,4883,277,77,13
+Isolation Forest,Test,5020,150,55,35
+Isolation Forest,HeldOut,9903,427,132,48
+Autoencoder,Validation,4673,487,29,61
+Autoencoder,Test,4402,768,14,76
+Autoencoder,HeldOut,9075,1255,43,137
+One-Class SVM,Validation,4020,1140,0,90
+One-Class SVM,Test,3842,1328,1,89
+One-Class SVM,HeldOut,7862,2468,1,179

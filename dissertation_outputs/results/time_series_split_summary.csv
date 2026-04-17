@@ -1,0 +1,4 @@
+Split,Rows,Assets,Start_Date,End_Date
+Test,5260,10,2021-11-26,2023-12-29
+Train,24510,10,2010-02-02,2019-10-25
+Validation,5250,10,2019-10-28,2021-11-24

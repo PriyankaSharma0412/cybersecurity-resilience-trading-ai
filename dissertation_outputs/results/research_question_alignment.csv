@@ -1,0 +1,6 @@
+Research_Question_Area,Implemented_Evidence,Primary_Output
+Cybersecurity and anomaly detection,"Isolation Forest, Autoencoder, and One-Class SVM anomaly pipeline",c:\Code\dissertation_outputs\results\baseline_model_comparison_standardized.csv
+Behaviour under abnormal inputs,Gaussian perturbation tests plus named stress scenarios,c:\Code\dissertation_outputs\results\perturbation_robustness_results_standardized.csv
+Predictive resilience without loss of interpretability,"Controlled injection metrics with Precision, Recall, F1, and Time-to-Detection",c:\Code\dissertation_outputs\results\controlled_injection_metrics.csv
+Explainability stability under perturbation,SHAP feature importance and stability analysis across perturbation levels,c:\Code\dissertation_outputs\results\shap_stability_all_levels_standardized.csv
+Integrated monitoring framework,"Unified output tables, failure analysis, and narrative synthesis",c:\Code\dissertation_outputs\results\final_model_summary_standardized.csv

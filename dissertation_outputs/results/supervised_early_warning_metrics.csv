@@ -1,0 +1,2 @@
+Model,Split,Precision,Recall,F1_Score,TN,FP,FN,TP,Predicted_Anomalies,True_Anomalies,ROC_AUC,Threshold,Training_Split,Warning_Horizon_Days
+Supervised Early Warning,Test,0.5714285714285714,0.24444444444444444,0.3424124513618677,5047,33,136,44,77,180,0.7763287401574804,0.45450865017472947,Validation,3
