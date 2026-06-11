@@ -1,7 +1,0 @@
-Model_A,Model_B,A_correct_B_wrong,A_wrong_B_correct,Discordant_Total,Exact_McNemar_pvalue
-Isolation Forest Adaptive,Autoencoder Adaptive,298,547,845,8.412693666283848e-18
-Isolation Forest Adaptive,One-Class SVM Adaptive,114,502,616,5.440506266616883e-59
-Isolation Forest Adaptive,Ensemble Majority Vote,85,455,540,4.016967118596273e-62
-Autoencoder Adaptive,One-Class SVM Adaptive,121,260,381,8.70661645716236e-13
-Autoencoder Adaptive,Ensemble Majority Vote,92,213,305,3.326169225319248e-12
-One-Class SVM Adaptive,Ensemble Majority Vote,47,29,76,0.050452410247217666

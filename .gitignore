@@ -19,10 +19,12 @@ ENV/
 
 # Jupyter
 .ipynb_checkpoints/
+*.backup.ipynb
 
 # Local temp/cache folders
 tmp/
 .mplconfig/
+.yfinance_cache/
 
 # Logs
 *.log
@@ -39,15 +41,24 @@ Financial_AI_Robustness_Supervised_Submission_Package*/
 *.zip
 
 # Generated data/model/output artifacts
-# Keep source code and documentation in git; regenerate or package outputs separately.
-dissertation_outputs/data/
-dissertation_outputs/models/
-dissertation_outputs/state/
-dissertation_outputs/figures/
+# Keep source code and the main notebook in git; regenerate/package outputs separately.
+dissertation_outputs/
 
-# Large/generated report artifacts
+# Dissertation/report/presentation artifacts
+docs/
+reports/
+dissertation_outputs/
 *.doc
 *.docx
+*.docm
+*.jpeg
+*.png
+*.csv
+sample_presentation_thumbnail.jpeg
+
+# Office/temp artifacts
+~$*
+~WRL*.tmp
 
 # Download/bootstrap helpers
 get-pip.py

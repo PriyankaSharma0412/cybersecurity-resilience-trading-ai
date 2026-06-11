@@ -1,4 +1,7 @@
-Model,Baseline_Test_Anomalies,Gaussian_30pct_Label_Flips,Worst_Stress_Robustness,Interpretation
-Isolation Forest,158,3049,0.8828897338403042,Tree-based detector remains comparatively stable under diffuse perturbation but should still be monitored for drift.
-Autoencoder,775,4485,0.14904942965779466,"Reconstruction boundary is sensitive to shifted inputs, which is useful for detection but increases perturbation sensitivity."
-One-Class SVM,1345,3915,0.2701520912547528,Kernel baseline offers a useful comparator but may degrade when scaled feature geometry changes materially.
+Model,Model_Type,Precision,Recall,F1_Score,ROC_AUC,Avg_Gaussian_Robustness,Worst_Stress_F1,Target_Event_Detection_Rate,Mean_Time_To_Detection,Synthetic_Proxy_Event_Detection_Rate,Avg_Adversarial_F1_Drop,Interpretation
+Logistic Regression,Supervised Classifier,0.2354391371340524,0.7453658536585366,0.3578454332552693,0.6116382739212006,0.5355047619047619,0.3457051961823966,0.8396501457725948,0.09375,1.0,0.12148909954275071,Strong candidate
+Random Forest,Supervised Classifier,0.6,0.005853658536585366,0.011594202898550725,0.5487772550151536,0.9979428571428572,0.0,0.0058309037900874635,0.0,0.0,0.0025627570194090886,Comparator model for trade-off analysis
+Gradient Boosting Fallback,Supervised Classifier,0.23076923076923078,0.06146341463414634,0.0970724191063174,0.5444652908067542,0.25352380952380954,0.12200435729847495,0.22157434402332363,0.18421052631578946,0.06666666666666667,0.02488339350114274,Comparator model for trade-off analysis
+Supervised Logistic Event Detector,Additional Supervised Event Detector,0.2441747572815534,0.49073170731707316,0.32609400324149107,0.6116382739212006,,,0.6676384839650146,0.35807860262008734,0.8,,Comparator model for trade-off analysis
+Supervised Random Forest Event Detector,Additional Supervised Event Detector,0.21128995692586716,0.9092682926829269,0.3428991905813098,0.5958835041131476,,,0.967930029154519,0.015060240963855422,1.0,,Comparator model for trade-off analysis
+Supervised Gradient Boosting Fallback Event Detector,Additional Supervised Event Detector,0.20848806366047745,0.7668292682926829,0.3278415015641293,0.5444652908067542,,,0.9446064139941691,0.018518518518518517,0.9666666666666667,,Comparator model for trade-off analysis

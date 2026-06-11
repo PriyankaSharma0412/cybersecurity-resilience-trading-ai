@@ -1,16 +1,16 @@
-Feature,Mean_Abs_SHAP
-Momentum_10,0.4311984764854976
-MACD,0.4220768830059625
-MACD_Signal,0.38306073198188406
-Drawdown,0.23058751871700287
-Volatility_10,0.20143646395313514
-Volatility_20,0.19941187920827524
-MA_Ratio_20,0.19088574153699905
-MA_Ratio_10,0.18006524451054234
-BB_Width,0.16677131986182928
-Return,0.15097618346474725
-Return_Zscore_20,0.14687959706770376
-Volume_Change,0.12840983089265148
-Rolling_Skew_20,0.10967612258981356
-Rolling_Kurt_20,0.10622301258901048
-RSI_14,0.10315292839563221
+Feature,Mean_Abs_SHAP,Model
+MACD_Signal,0.27941587876198803,Gradient Boosting Fallback
+Volatility_10,0.20918662538056276,Gradient Boosting Fallback
+Momentum_10,0.1801491003641787,Gradient Boosting Fallback
+Volatility_20,0.16623396972698593,Gradient Boosting Fallback
+MACD,0.16539910061758462,Gradient Boosting Fallback
+Drawdown,0.14437252346599974,Gradient Boosting Fallback
+BB_Width,0.13922368434373042,Gradient Boosting Fallback
+Rolling_Kurt_20,0.13899614832369178,Gradient Boosting Fallback
+MA_Ratio_20,0.1134407029116381,Gradient Boosting Fallback
+RSI_14,0.11147180901034169,Gradient Boosting Fallback
+Rolling_Skew_20,0.09835217943354176,Gradient Boosting Fallback
+Return_Zscore_20,0.06360079222209646,Gradient Boosting Fallback
+MA_Ratio_10,0.05901338697438932,Gradient Boosting Fallback
+Return,0.0548291053496913,Gradient Boosting Fallback
+Volume_Change,0.04932872050002263,Gradient Boosting Fallback

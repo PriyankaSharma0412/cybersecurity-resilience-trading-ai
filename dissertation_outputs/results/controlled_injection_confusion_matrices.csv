@@ -1,10 +1,7 @@
 Model,Split,TN,FP,FN,TP
-Isolation Forest,Validation,4883,277,77,13
-Isolation Forest,Test,5020,150,55,35
-Isolation Forest,HeldOut,9903,427,132,48
-Autoencoder,Validation,4673,487,29,61
-Autoencoder,Test,4402,768,14,76
-Autoencoder,HeldOut,9075,1255,43,137
-One-Class SVM,Validation,4020,1140,0,90
-One-Class SVM,Test,3842,1328,1,89
-One-Class SVM,HeldOut,7862,2468,1,179
+Logistic Regression,Validation,2201,2301,199,549
+Random Forest,Validation,4497,5,747,1
+Gradient Boosting Fallback,Validation,4238,264,688,60
+Logistic Regression,Test,1744,2481,261,764
+Random Forest,Test,4221,4,1019,6
+Gradient Boosting Fallback,Test,4015,210,962,63
